@@ -14,31 +14,31 @@
     </a-marker> -->
 
     <!-- handle hiro marker -->
-    <a-marker preset='hiro'>
+    <a-marker-camera preset='hiro'>
         <a-box position='0 0.5 0' material='opacity: 0.5; side: double;color:red;'>
             <a-torus-knot radius='0.26' radius-tubular='0.05'>
                 <a-animation attribute="rotation" to="360 0 0" dur="5000" easing='linear' repeat="indefinite"></a-animation>
             </a-torus-knot>
         </a-box>
-    </a-marker>
+    </a-marker-camera>
 
     <!-- handle matrix marker -->
-    <a-marker type='barcode' value='5'>
+    <a-marker-camera type='barcode' value='5'>
         <a-box position='0 0.5 0' material='opacity: 0.5; side: double;color:pink;'>
             <a-torus-knot radius='0.26' radius-tubular='0.05'>
                 <a-animation attribute="rotation" to="360 0 0" dur="5000" easing='linear' repeat="indefinite"></a-animation>
             </a-torus-knot>
         </a-box>
-    </a-marker>
+    </a-marker-camera>
 
     <!-- handle kanji marker -->
-    <a-marker preset='kanji'>
+    <a-marker-camera preset='kanji'>
         <a-box position='0 0.5 0' material='opacity: 0.5; side: double;color:green;'>
             <a-torus-knot radius='0.26' radius-tubular='0.05'>
                 <a-animation attribute="rotation" to="360 0 0" dur="5000" easing='linear' repeat="indefinite"></a-animation>
             </a-torus-knot>
         </a-box>
-    </a-marker>
+    </a-marker-camera>
 
     <!-- add a simple camera -->
     <a-entity camera></a-entity>
